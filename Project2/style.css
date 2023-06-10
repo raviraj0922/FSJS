@@ -1,0 +1,86 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+.container{
+    display: flex;
+    position: absolute;
+    background-image: url(./bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    height: 70px;
+    width: 1440px;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    left: 232px;
+}
+.logo{
+ width: 100px;
+ position: relative;
+ left: 80px; top: 19px;
+}
+.line{
+    display: block;
+    border: 1px solid #fff;
+    height: 45px;
+    position: relative;
+    left: 130px; top: 12px;
+}
+.grow-list{
+    position: relative;
+    top: 5px;
+    color: #fff;
+}
+.list{
+    list-style-type: none;
+    display: inline;
+    position: relative;
+    bottom: 8px;
+    left: 150px;
+}
+.list-item{
+    float: left;
+    display: block;
+    padding: 30px; 
+    text-decoration: none;
+}
+.button-small{
+    position: fixed;
+    right: 300px; top: 29px;
+    background-color: #d80beb;
+    color: #fff;
+    padding: 7px 14px 7px 14px;
+    border-radius: 5px;
+}
+.hero{
+    position: relative;
+    right: 900px;
+    display: block;
+    height: 800px;
+    color: #fff;
+    text-align: center;
+}
+.hero-heading{
+    position: relative;
+    top: 70px;
+    text-align: center;
+    display: block;
+    width: 900px;
+    font-size: 100px;
+}
+.hero-description{
+    text-align: center;
+    font-size: 35px;
+}
+.button-large{
+    position: relative;
+    background-color: #d80beb;
+    color: #fff;
+    padding: 15px 20px 15px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+}

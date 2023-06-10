@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image</title>
+</head>
+<body>
+    <img
+    usemap="#image-map" 
+    src="./image/IMG_20220211_084019.jpg" alt="daughter">
+    
+    <map name="image-map">
+        <area target="" onclick="myfunOne()" alt="" title="" href="" coords="2098,2285,884,981" shape="rect">
+        <area target="" onclick="myfunTwo()" alt="" title="" href="" coords="436,3207,2805,3563" shape="0">
+    </map>
+    <script>
+        function myfunOne(){
+            alert("You clicked one")
+        }
+        function myfunTwo(){
+            alert("You clicked two")
+        }
+    </script>
+</body>
+</html>

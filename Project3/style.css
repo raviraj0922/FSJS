@@ -1,0 +1,118 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+/* .container{
+    display: flex;
+    border: 1px solid #000;
+}
+.navbar-container{
+    position: absolute;
+    left: 300px; top: 15px;
+    border: 1px solid #000;
+    display: inline-block;
+    width: 70%;
+}
+.list{
+    position: relative;
+    bottom: 85px; left: 300px;
+    list-style-type: none;
+    display: flex;
+    
+}
+.list-item{
+    float: left;
+    display: block;
+    padding: 30px; 
+    text-decoration: none;
+}
+.button-group{
+    position: absolute;
+    right: 25px; bottom: 120px;
+}
+
+
+.nav-button{
+    position: relative;
+    left: 25px;
+    padding: 8px 40px;
+    border-radius: 9px;
+}
+.hero-container{
+    display: inline-block;
+    align-items: center;
+}
+.square{
+    display: flex;
+    position: relative;
+    top: 100px; left: 90px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    border: 1px solid #000;
+    background: #fff;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Nav-Bar */
+
+.navbar{
+    height: 15vh;
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.navbar-container{
+    position: relative;
+    border: 1px solid #000;
+    padding: 25px 0px;
+}
+.button-group{
+    position: absolute;
+    right: 50px; bottom: 45px;
+    display: inline-flex;
+}
+.search-icon{
+    position: relative;
+    top: 5px; left: 10px;
+}
+.nav-button{
+    position: relative;
+    left: 25px;
+    padding: 10px 50px;
+    border-radius: 9px;
+    font-size: large;
+    background: #fff;
+}
+.list{
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 45px; left: 500px;
+}
+.list-item{
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+}
+/* hero section */
+.hero-container{
+    position: absolute;
+}
+.square{
+    position: relative;
+    top: 300px; left: 200px;
+}
+.star{
+    position: relative;
+    left: 850px;
+}
+.globe{
+    position: relative;
+    bottom: 20px; left: 170px;
+}

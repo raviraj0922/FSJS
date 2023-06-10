@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style</title>
+    <style>
+        /* universal selector */
+        * {
+            background-color: #4d4d4d;
+            /* color: #ffffff; */
+        }
+        /* individual selector */
+        p {
+            background-color: #d1ea76;
+        }
+        /* class and id selector */
+        .warning {
+            background-color: #ef9323;
+            color: #ffffff;
+        }
+        #danger {
+            background-color: #e93916;
+            color: #ffffff; 
+        }
+        /* and selector (chained) */
+        li.bg-black.text-white {
+            background-color: #000000;
+            color: #ef9326;
+        }
+        /* combined selector */
+        span, li {
+            background-color: burlywood;
+        }
+        /* inside an element */
+        div ul li {
+            background-color: #4b35f1;
+        }
+        /* direct child */
+        div > li {
+            background-color: #5547bd;
+        }
+        /* sibling ~ or + */
+        .sibling + p {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div>This is my first CCS class</div>
+    <span>Span is just span, nothings else</span>
+    <p>This is the paragraph</p>
+    <ul>
+        <li class="bg-black">item 1</li>
+        <li class="warning">item 2</li>
+        <li id="danger">item 3</li>
+        <li class="bg-black text-white">item 4</li>
+        <li>item 5</li>
+        <li>item 6</li>
+        <li>item 7</li>
+    </ul>
+
+    <div>
+        <p>lorem</p>
+        <li>ordered list</li>
+        <ul>
+            <li>highlight 1</li>
+            <li>highlight 2</li>
+            <li>highlight 3</li>
+        </ul>
+    </div>
+
+    <section>
+        <p>paragraph 1</p>
+        <p class="sibling">paragraph 2</p>
+        <p>paragraph 3</p>
+        <p class="sibling">paragraph 4</p>
+        <p>paragraph 5</p>
+    </section>
+</body>
+</html>

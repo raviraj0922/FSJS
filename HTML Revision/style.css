@@ -1,0 +1,29 @@
+/* *{                universal selector
+    color: #ff0000;
+    background-color: #a9a9a9;
+} */
+
+.para{
+    /* color: aqua;
+    border: 2px double red; */
+    border-width: 5px;
+    border-style: solid dotted double;
+    border-color: #000;
+    padding: 20px;
+    margin: 50px 20px 10px 50px; /* top right bottom left */
+    height: 150px;
+    width: 160px;
+    background-color: #ffd700;
+    text-align: center;
+    text-decoration: overline underline;
+}
+
+/* #para{           ID selector
+    color: #0000ff;
+} */
+
+/* .para{           class selector
+    color: #0000ff;
+} */
+
+/* Margin is from outside and padding is from inside */
