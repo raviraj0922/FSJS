@@ -1,6 +1,6 @@
 # HTML File
-## HW
-## Media
+## [HW](https://github.com/raviraj0922/FSJS/tree/main/HTML%20Revision/HW)
+## [Media](https://github.com/raviraj0922/FSJS/tree/main/HTML%20Revision/Media)
 ## [table](https://github.com/raviraj0922/FSJS/blob/main/HTML%20Revision/table.html)
 ## [iframe](https://github.com/raviraj0922/FSJS/blob/main/HTML%20Revision/iframe.html)
 ## [form](https://github.com/raviraj0922/FSJS/blob/main/HTML%20Revision/form.html)
