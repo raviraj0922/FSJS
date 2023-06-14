@@ -1,0 +1,63 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+.container{
+    display: flex;
+    justify-content: center;
+}
+.navbar-container{
+    display:inline-flex;
+    position: absolute;
+    margin-top: 50px;  
+    align-items: center;
+}
+.list{
+    list-style-type: none;
+    display: inline;
+    position: relative;
+    left: 70px;
+}
+.list-item{
+    float: left;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+.button-group{
+    position: relative;
+    left: 535px;
+    display: block;
+}
+.nav-button{
+    background-color: #383cc1;
+    color: #fff;
+    padding: 12px 20px 12px 20px;
+    border: 1px white solid;
+    border-radius: 7px;
+    font-size: 15px;
+}
+.banner-container{
+    display: block;
+    position: relative;
+    top: 110px;
+    height: 700px;
+}
+#imgback{
+    position: relative;
+    padding-left: 300px; bottom: 350px;
+}
+.heading-text{
+    align-items: center;
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+}
+.description{
+    display: block;
+    width: 300px;
+    position: relative;
+    top: 80px;
+}
+.btn{
+    position: relative;
+    top: 100px;
+}
