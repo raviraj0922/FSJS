@@ -1,0 +1,150 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    max-width: 1440px;
+    height: 950px;
+    background: #fff;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Nav-Bar */
+
+.navbar-container{
+    position: absolute;
+    left: 232px; top: 15px;
+    display: inline-block;
+    width: 75.65%;
+}
+.button-group{
+    position: absolute;
+    right: 25px; bottom: 120px;
+}
+.nav-button{
+    position: relative;
+    left: 25px;
+    padding: 8px 40px;
+    border-radius: 9px;
+}
+.logo{
+    position: relative;
+    top: 15px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 30px; left: 400px;
+    font-family: Directive Four;
+    font-size: x-large;
+}
+.list-item{
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+}
+.button-group{
+    position: absolute;
+    right: 50px; top: 20px;
+    display: inline-flex;
+}
+.search-icon{
+    position: relative;
+    top: 5px; left: 10px;
+}
+.nav-button{
+    position: relative;
+    right: 25px;
+    padding: 8px 50px;
+    border-radius: 12px;
+    font-size: large;
+    background: #fff;
+    font-size: 25px;
+} 
+/* hero section */
+.hero-container{
+    display: flex;
+}
+.square{
+    position: relative;
+    top: 470px; left: 160px;
+}
+.star1{
+    position: relative;
+    left: 900px; top: 190px;
+}
+.star{
+    position: relative;
+    top: 790px; left: 150px;
+}
+.globe{
+    position: relative;
+    top: 150px; left: 160px;
+}
+.image{
+    display: flex;
+    position: relative;
+    right: 650px; top: 200px;
+    width: 500px;
+}
+.hero-container-right{
+    position: absolute;
+    width: 850px;
+    top: 150px; right: 231px;
+}
+.hero-heading{
+    position: relative;
+    top: 150px; left: 10px;
+    font-size: 65px;
+    font-family: Directive Four;
+}
+.hero-description{
+    display: flex;
+    text-align: center;
+    width: 630px;
+    position: relative;
+    top: 200px; left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #5e5c5c;
+}
+.button-email{
+    position: relative;
+    top: 330px; left: 200px;
+    padding: 5px 31px;
+    border-radius: 12px;
+    font-size: 25px;
+    background: #fff;    
+    font-family: Directive Four;
+    color: #5e5c5c;
+}
+.button-join{
+    position: relative;
+    top: 330px; left: 220px;
+    padding: 5px 15px;    
+    border-radius: 12px;
+    font-size: 25px;
+    background: #000;    
+    font-family: Directive Four;
+    color: #fff;
+}
+.contact-heading{
+    position: relative;
+    top: 480px; left: 370px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #5e5c5c;
+}
+.icons{
+    position: relative;
+    top: 500px; left: 318px;
+}
+.icons span{
+    padding: 0px 6px;
+}
