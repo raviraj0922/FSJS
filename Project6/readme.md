@@ -1,0 +1,1 @@
+# project on VS Code for education purpose only [link](https://github.com/raviraj0922/FSJS/blob/main/Project6/index.html)
