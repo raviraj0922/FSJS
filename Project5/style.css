@@ -5,7 +5,7 @@
 }
 
 body{
-    max-width: 1440px;
+    /* max-width: 1440px; */
     background-color: #1f1e1e;
     margin: auto; /* Auto */
     font-family: Arial, Helvetica, sans-serif;
@@ -330,7 +330,7 @@ section rightsection{
 }
 .diamond2{
     position: absolute;
-    left: 0;
+    right: 60%;
 }
 .head1{
     padding: 0 5%;
