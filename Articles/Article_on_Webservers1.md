@@ -1,7 +1,8 @@
 # Audio and Video Tag
-## <audio> Tag:
-- The <audio> tag is used to embed sound content in a document, such as music or other audio streams.
-- It contains one or more <source> tags with different audio sources.
+
+## audio Tag:
+- The 'audio' tag is used to embed sound content in a document, such as music or other audio streams.
+- It contains one or more 'source' tags with different audio sources.
 - Browsers choose the first supported source.
 Ex:
 <audio controls>
@@ -9,9 +10,10 @@ Ex:
     <source src="horse.mp3" type="audio/mpeg">
     Your browser does not support the audio tag.
 </audio>
-## <video> Tag:
-- The <video> tag embeds a media player for video playback.
-- You can also use it for audio content, but <audio> is more appropriate for sound files.
+
+## video Tag:
+- The 'video' tag embeds a media player for video playback.
+- You can also use it for audio content, but 'audio' is more appropriate for sound files.
 Ex:
 <video controls>
     <source src="movie.mp4" type="video/mp4">
