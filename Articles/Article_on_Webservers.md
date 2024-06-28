@@ -1,43 +1,45 @@
 # Web Servers: 
 ## A web server can be referred to as either the hardware (the computer) or the software (the computer application) that helps to deliver content that can be accessed through the Internet. A web server is what makes it possible to be able to access content like web pages or other data from anywhere as long as it is connected to the internet.
-•	A web server is a computer that stores web server software and a website’s component files (such as HTML documents, images, CSS stylesheets, and JavaScript files).
-•	It connects to the Internet and facilitates data interchange with other devices on the web.
-•	The core component is the HTTP server, which understands URLs (web addresses) and the HTTP protocol (used by browsers to view webpages).
-•	When your browser requests a file (e.g., an HTML page) hosted on a web server, it sends an HTTP request.
-•	The web server (software) accepts the request, locates the requested document, and sends it back to your browser via HTTP.
-•	If the server doesn’t find the requested document, it returns a 404 response.
-Types of Web Servers:
-•	Static Web Server: Sends hosted files as-is to your browser. It consists of a computer with an HTTP server.
-•	Dynamic Web Server: Includes extra software (e.g., an application server and a database). The application server updates hosted files before delivering content to your browser. For complex sites (like MDN or Wikipedia), this setup is common.
-Web servers play a crucial role in delivering web content to users. They handle requests, locate files, and ensure smooth data exchange.
+<ul><li>A web server is a computer that stores web server software and a website’s component files (such as HTML documents, images, CSS stylesheets, and JavaScript files).</li>
+<li>It connects to the Internet and facilitates data interchange with other devices on the web.</li>
+<li>The core component is the HTTP server, which understands URLs (web addresses) and the HTTP protocol (used by browsers to view webpages).</li>
+<li>When your browser requests a file (e.g., an HTML page) hosted on a web server, it sends an HTTP request.</li>
+<li>The web server (software) accepts the request, locates the requested document, and sends it back to your browser via HTTP.</li>
+<li>If the server doesn’t find the requested document, it returns a 404 response.</li></ul>
+
+## Types of Web Servers:
+<ul><li>Static Web Server: Sends hosted files as-is to your browser. It consists of a computer with an HTTP server.</li>
+<li>Dynamic Web Server: Includes extra software (e.g., an application server and a database). The application server updates hosted files before delivering content to your browser. For complex sites (like MDN or Wikipedia), this setup is common.</li></ul>
+<p>Web servers play a crucial role in delivering web content to users. They handle requests, locate files, and ensure smooth data exchange.</p>
 
  
 # HTML Element
 ## Hyper Text Mark-up Language is helpful for the structure and design of any webpage. It just provides the primary structure that is assisted by more advanced programming languages like javascript.
 # HTML Tags: 
-H1 to H6 - header tags: This tag is use to give title and subject, it is start with <H1> and end with</H1>.
-p paragraph tag: This tag is use to separate the content paragraphs, it is start with <p> and end with </p>.
-a anchor tag: This tag is use to define a hyperlink, which connect the one web page to an another webpage, it is start with <a> and end with </a>
-img image tag: This tag is use to insert the image in the webpage, we can insert the image in the webpage by linking the image address from other webpage.
-# Lorem
-Lorem is the dummy content use for to insert in the webpage in the place of content, we can insert as long as content in the webpage.
-Ex: if we want to insert the 100 word content in the web page we just type “Lorem100” and hit tab and we get 100 word of dummy content.
-# There are lots of other tags which were used in the HTML page designing:
-1.	<!DOCTYPE html>: Defines the document type and version (HTML5 in this case).
-2.	<html>: The root element that wraps all other elements.
-3.	<head>: Contains metadata about the document (e.g., title, links to stylesheets, scripts).
-4.	<body>: Contains the visible content of the webpage.
-5.	<h1> to <h6>: Headings (from largest to smallest).
-6.	<p>: Paragraphs.
-7.	<a>: Hyperlinks.
-8.	<img>: Embeds images.
-9.	<ul> and <ol>: Unordered and ordered lists.
-10.	<li>: List items.
-11.	<div>: A generic container for grouping elements.
-12.	<span>: Inline container for styling or scripting.
-13.	<table>, <tr>, <td>: Creates tables and their rows and cells.
-14.	<form>: Defines input forms.
-15.	<input>: Various input types (text, checkbox, radio, etc.).
+## H1 to H6 - header tags: This tag is use to give title and subject, it is start with <H1> and end with</H1>.
+## p paragraph tag: This tag is use to separate the content paragraphs, it is start with <p> and end with </p>.
+## a anchor tag: This tag is use to define a hyperlink, which connect the one web page to an another webpage, it is start with <a> and end with </a>
+## img image tag: This tag is use to insert the image in the webpage, we can insert the image in the webpage by linking the image address from other webpage.
+
+## Lorem
+<p>Lorem is the dummy content use for to insert in the webpage in the place of content, we can insert as long as content in the webpage.</p>
+<p>Ex: if we want to insert the 100 word content in the web page we just type “Lorem100” and hit tab and we get 100 word of dummy content.</p>
+## There are lots of other tags which were used in the HTML page designing:
+<ul> <li><!DOCTYPE html>: Defines the document type and version (HTML5 in this case).</li>
+<li><html>: The root element that wraps all other elements.</li>
+<li><head>: Contains metadata about the document (e.g., title, links to stylesheets, scripts).</li>
+<li><body>: Contains the visible content of the webpage.</li>
+<li><h1> to <h6>: Headings (from largest to smallest).</li>
+<li><p>: Paragraphs.</li>
+<li><a>: Hyperlinks.</li>
+<li><img>: Embeds images.</li>
+<li><ul> and <ol>: Unordered and ordered lists.</li>
+<li><li>: List items.</li>
+<li><div>: A generic container for grouping elements.</li>
+<li><span>: Inline container for styling or scripting.</li>
+<li><table>, <tr>, <td>: Creates tables and their rows and cells.</li>
+<li><form>: Defines input forms.</li>
+<li><input>: Various input types (text, checkbox, radio, etc.).</li></ul>
 
  
 # Input Elements
@@ -175,16 +177,16 @@ Ex:
 # Media Query
 ## Media queries are a powerful CSS3 feature that allow webpages to adapt their layout based on different screen sizes and media types. They play a crucial role in creating responsive web designs.
 Ex: 
-@media only screen and (max-width: 600px) {
+`@media only screen and (max-width: 600px) {
     body {
         background-color: lightblue;
     }
-}
+}`
 # Breakpoints and Responsive Design
 •	Breakpoints define where parts of the design behave differently based on screen size.
 •	We can add breakpoints to adjust layouts for desktop, tablet, and phone screens.
 •	Here’s an example of a breakpoint at 768px
-/* For desktop: */
+`/* For desktop: */
 .col-1 { width: 8.33%; }
 .col-2 { width: 16.66%; }
 /* ... other column widths ... */
@@ -193,11 +195,11 @@ Ex:
     [class*="col-"] {
         width: 100%;
     }
-}
+}`
 # Mobile First Approach
 •	Designing for mobile first means making changes when the width gets larger than 768px.
 •	Here’s an example of a mobile-first approach
-/* For mobile phones: */
+`/* For mobile phones: */
 [class*="col-"] {
     width: 100%;
 }
@@ -205,7 +207,7 @@ Ex:
     /* For desktop: */
     .col-1 { width: 8.33%; }
     /* ... other column widths ... */
-}
+}`
  
 # CSS Grid
 ## CSS Grid is a powerful two-dimensional layout system for creating responsive web designs.
@@ -218,8 +220,8 @@ Ex:
 •	Positioned in columns and rows.
 •	Use fractional units (fr) for flexible sizing
 Ex:
-.container {
+`.container {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr; /* Three equal columns */
     grid-template-rows: 100px auto 50px; /* Fixed, flexible, fixed rows */
-}
+}`
