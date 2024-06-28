@@ -16,9 +16,9 @@
 # HTML Element
 ## Hyper Text Mark-up Language is helpful for the structure and design of any webpage. It just provides the primary structure that is assisted by more advanced programming languages like javascript.
 # HTML Tags: 
-## H1 to H6 - header tags: This tag is use to give title and subject, it is start with <H1> and end with</H1>.
-## p paragraph tag: This tag is use to separate the content paragraphs, it is start with <p> and end with </p>.
-## a anchor tag: This tag is use to define a hyperlink, which connect the one web page to an another webpage, it is start with <a> and end with </a>
+## H1 to H6 - header tags: This tag is use to give title and subject, it is start with "<H1>" and end with "</H1>".
+## p paragraph tag: This tag is use to separate the content paragraphs, it is start with '<p>' and end with '</p>'.
+## a anchor tag: This tag is use to define a hyperlink, which connect the one web page to an another webpage, it is start with '<a>' and end with '</a>'.
 ## img image tag: This tag is use to insert the image in the webpage, we can insert the image in the webpage by linking the image address from other webpage.
 
 ## Lorem
